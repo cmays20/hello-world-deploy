@@ -1,0 +1,14 @@
+---
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: hello-world
+  labels:
+    team: frontend
+spec:
+  selector:
+    matchLabels:
+      app: hello-world
+  endpoints:
+    - port: web
+      path: /actuator/prometheus
