@@ -1,2 +1,7 @@
-bases:
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
 - ../../base/
+images:
+- name: quay.io/cmays20/hello-world
+  newTag: 4fb460e291bccbe48016a9f57ff68f6cf3fac6fd
