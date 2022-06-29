@@ -4,4 +4,4 @@ resources:
 - ../../base/
 images:
 - name: quay.io/cmays20/hello-world
-  newTag: 4769cdc1af1c3b3ba97025a8ba9723181034e68f
+  newTag: 52123fe27de4c2580086a5e8e232a90101009cf8
