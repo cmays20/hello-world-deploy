@@ -4,4 +4,4 @@ resources:
 - ../../base/
 images:
 - name: quay.io/cmays20/hello-world
-  newTag: master-master
+  newTag: latest
