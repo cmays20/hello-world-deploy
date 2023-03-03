@@ -24,3 +24,10 @@ spec:
           ports:
             - containerPort: 8080
               name: web
+          env: 
+            - name: SPRING_APPLICATION_NAME
+              valueFrom:
+                configMapKeyRef: 
+                  name: environment-variables
+                  key: app
+                  optional: true
