@@ -4,7 +4,7 @@ resources:
 - ../../base/
 images:
 - name: quay.io/cmays20/hello-world
-  newTag: ef9534af2f835d67752b5de9c29b17e7da434b17
+  newTag: 0729a07f40f0d05ddc54e54a9d4a67b4ac9059e0
 configMapGenerator:
 - literals:
   - app=hello-world-dev
